@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ⬇️ Checkout code
+      - name: ⬇️ Checkout repo
         uses: actions/checkout@v3
 
       - name: 🟨 Setup Node.js
@@ -24,15 +24,19 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 8
+          run_install: false
 
       - name: 📥 Install dependencies
         run: pnpm install
 
-      - name: 🔍 Type Check
-        run: pnpm tsc --noEmit
+      - name: ⚡️ Cache turbo build output
+        uses: actions/cache@v3
+        with:
+          path: .turbo
+          key: ${{ runner.os }}-turbo-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-turbo-
 
-      - name: 🧪 Run tests
-        run: pnpm test
-
-      - name: 🏗 Build the project
-        run: pnpm build
+      - name: 🧪 Run Turbo Tasks
+        run: |
+          pnpm turbo run lint test build --cache-dir=.turbo
