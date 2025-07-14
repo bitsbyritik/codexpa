@@ -1,14 +1,14 @@
-import { cn } from "@workspace/ui/lib/utils";
-import { Button } from "@workspace/ui/components/ui/button";
+import { cn } from "@codexpa/ui/lib/utils";
+import { Button } from "@codexpa/ui/components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@workspace/ui/components/ui/card";
-import { Input } from "@workspace/ui/components/ui/input";
-import { Label } from "@workspace/ui/components/ui/label";
+} from "@codexpa/ui/components/ui/card";
+import { Input } from "@codexpa/ui/components/ui/input";
+import { Label } from "@codexpa/ui/components/ui/label";
 
 export function LoginForm({
   className,

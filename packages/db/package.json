@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/db",
+  "name": "@codexpa/db",
   "version": "1.0.0",
   "main": "index.ts",
   "exports": {
@@ -16,7 +16,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@workspace/typescript-config": "workspace:*"
+    "@codexpa/typescript-config": "workspace:*"
   },
   "dependencies": {
     "@prisma/client": "^6.10.1",
