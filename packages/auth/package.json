@@ -10,8 +10,7 @@
     "lint": "eslint ."
   },
   "peerDependencies": {
-    "better-auth": "^1.2.12",
-    "server-only": "^0.0.1"
+    "better-auth": "^1.2.12"
   },
   "dependencies": {
     "@codexpa/db": "workspace:*"
