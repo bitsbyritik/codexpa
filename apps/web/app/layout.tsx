@@ -21,13 +21,13 @@ export default function RootLayout({
       lang="en"
       suppressHydrationWarning
       className="dark"
-      data-oid="8z_dfiu"
+      data-oid="thx1xf3"
     >
       <body
         className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased`}
-        data-oid="_--70f7"
+        data-oid=":tsuz09"
       >
-        <Providers data-oid="rqc4hbq">{children}</Providers>
+        <Providers data-oid="2bjbr-9">{children}</Providers>
       </body>
     </html>
   );

@@ -35,42 +35,42 @@ export function LandingPage() {
   return (
     <div
       className="min-h-screen bg-background text-foreground"
-      data-oid="jzffcl9"
+      data-oid="j5lnrj:"
     >
       {/* Hero Section */}
-      <section className="relative overflow-hidden" data-oid=".6siv91">
+      <section className="relative overflow-hidden" data-oid="8.khcx:">
         {/* Background gradient */}
         <div
           className="absolute inset-0 bg-gradient-to-br from-background via-background to-muted/20"
-          data-oid="ne::s0h"
+          data-oid="c__1kso"
         />
 
         {/* Subtle grid pattern */}
         <div
           className="absolute inset-0 bg-[linear-gradient(to_right,oklch(0.269_0_0)_1px,transparent_1px),linear-gradient(to_bottom,oklch(0.269_0_0)_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-20"
-          data-oid="014:3e:"
+          data-oid="g-x-k:d"
         />
 
         <div
           className="relative mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8"
-          data-oid="9lb.jjy"
+          data-oid="inxngon"
         >
-          <div className="mx-auto max-w-4xl text-center" data-oid="q3gqh-o">
+          <div className="mx-auto max-w-4xl text-center" data-oid="xd.l.i1">
             {/* Main headline */}
             <h1
               className="text-5xl font-bold tracking-tight sm:text-7xl lg:text-8xl"
-              data-oid="98g9z2r"
+              data-oid="jurbhqy"
             >
               <span
                 className="bg-gradient-to-r from-foreground via-foreground to-muted-foreground bg-clip-text text-transparent"
-                data-oid="-70:7_9"
+                data-oid="i0yd2ak"
               >
                 See Everything.
               </span>
-              <br data-oid="iwv6ocu" />
+              <br data-oid="k7bm3hk" />
               <span
                 className="bg-gradient-to-r from-primary via-chart-1 to-chart-2 bg-clip-text text-transparent"
-                data-oid="rz.zvp1"
+                data-oid="ki-hnz7"
               >
                 Automate Anything.
               </span>
@@ -79,7 +79,7 @@ export function LandingPage() {
             {/* Subheadline */}
             <p
               className="mt-8 text-xl leading-8 text-muted-foreground sm:text-2xl"
-              data-oid="cdovx7_"
+              data-oid="ow70mw7"
             >
               Onlook is your AI-powered observer for code, infra, and data.
             </p>
@@ -87,12 +87,12 @@ export function LandingPage() {
             {/* CTA Buttons */}
             <div
               className="mt-12 flex flex-col gap-4 sm:flex-row sm:justify-center"
-              data-oid="ao8:l23"
+              data-oid="h28v87z"
             >
               <Button
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-200 ring-2 ring-primary/20"
-                data-oid="7yg29ed"
+                data-oid="u3dt1tc"
               >
                 Join Waitlist
               </Button>
@@ -100,65 +100,68 @@ export function LandingPage() {
                 variant="outline"
                 size="lg"
                 className="group border-border hover:border-primary/50 transition-all duration-200"
-                data-oid="6r4yutu"
+                data-oid="o8fufbp"
               >
                 Learn More
                 <ArrowRight
                   className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1"
-                  data-oid="nbiaj47"
+                  data-oid="nbb483y"
                 />
               </Button>
             </div>
 
             {/* Terminal-style code snippet */}
-            <div className="mt-16 mx-auto max-w-2xl" data-oid="59p10fi">
+            <div className="mt-16 mx-auto max-w-2xl" data-oid="fyc.71c">
               <div
                 className="rounded-lg border border-border bg-card/50 backdrop-blur-sm p-6 font-mono text-sm"
-                data-oid="e6-ib00"
+                data-oid="7hmzxg9"
               >
                 <div
                   className="flex items-center gap-2 mb-4"
-                  data-oid="wng9j.6"
+                  data-oid="7a3lk48"
                 >
                   <div
                     className="h-3 w-3 rounded-full bg-destructive"
-                    data-oid="_n3.d:-"
+                    data-oid="crte5.7"
                   />
+
                   <div
                     className="h-3 w-3 rounded-full bg-chart-4"
-                    data-oid="mg5rr.o"
+                    data-oid="nw8x6so"
                   />
+
                   <div
                     className="h-3 w-3 rounded-full bg-chart-2"
-                    data-oid="twoi4xa"
+                    data-oid="k6au4vf"
                   />
+
                   <span
                     className="ml-2 text-muted-foreground"
-                    data-oid="uk6k4.y"
+                    data-oid="wqoy0s9"
                   >
                     onlook-cli
                   </span>
                 </div>
-                <div className="space-y-2" data-oid="qtapp7q">
-                  <div className="flex items-center gap-2" data-oid="3sf:37c">
-                    <span className="text-chart-2" data-oid="5yzc0nc">
+                <div className="space-y-2" data-oid="0_bpzos">
+                  <div className="flex items-center gap-2" data-oid="xmuk:fd">
+                    <span className="text-chart-2" data-oid="t5g0nni">
                       $
                     </span>
-                    <span className="text-foreground" data-oid="q_3-62x">
+                    <span className="text-foreground" data-oid="09aj2y-">
                       onlook observe --all
                     </span>
                   </div>
-                  <div className="text-muted-foreground" data-oid="h7xf7fd">
+                  <div className="text-muted-foreground" data-oid="vs.96u2">
                     ✓ Monitoring 47 services across 3 environments
                   </div>
-                  <div className="text-muted-foreground" data-oid="gkw2aun">
+                  <div className="text-muted-foreground" data-oid="s3-mcn7">
                     ✓ AI analysis active - 0 anomalies detected
                   </div>
-                  <div className="flex items-center gap-2" data-oid="9sr7g79">
-                    <span className="text-chart-2" data-oid="a.jfhf0">
+                  <div className="flex items-center gap-2" data-oid="hpzviqa">
+                    <span className="text-chart-2" data-oid="_2eiu:w">
                       $
                     </span>
-                    <span className="animate-pulse" data-oid="9f4dpsb">
+                    <span className="animate-pulse" data-oid="aov:0ka">
                       _
                     </span>
                   </div>
@@ -170,18 +173,18 @@ export function LandingPage() {
       </section>
 
       {/* What Onlook Does Section */}
-      <section className="py-24 sm:py-32" data-oid="55sdvdb">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8" data-oid="2-_t_q2">
-          <div className="mx-auto max-w-2xl text-center" data-oid="aw:u0f7">
+      <section className="py-24 sm:py-32" data-oid="szpwi9h">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8" data-oid="pzd0-id">
+          <div className="mx-auto max-w-2xl text-center" data-oid="c4jjjyx">
             <h2
               className="text-3xl font-bold tracking-tight sm:text-4xl"
-              data-oid="__nvcll"
+              data-oid="9uosa_y"
             >
               What Onlook Does
             </h2>
             <p
               className="mt-4 text-lg text-muted-foreground"
-              data-oid="a3qc-.m"
+              data-oid="8q4qrys"
             >
               Three core capabilities that transform how you manage your systems
             </p>
@@ -189,26 +192,26 @@ export function LandingPage() {
 
           <div
             className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-8 sm:grid-cols-3"
-            data-oid="4uu6qo6"
+            data-oid="ect1jle"
           >
             {/* Observes */}
             <Card
               className="group relative overflow-hidden border-border/50 bg-card/50 backdrop-blur-sm hover:border-primary/20 transition-all duration-300"
-              data-oid="m9eq3hg"
+              data-oid="p7d8dp:"
             >
-              <CardContent className="p-8" data-oid="ximghxw">
+              <CardContent className="p-8" data-oid="gmruow:">
                 <div
                   className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary"
-                  data-oid="6l:cffx"
+                  data-oid="mhrumlw"
                 >
-                  <Brain className="h-6 w-6" data-oid="1g4ccet" />
+                  <Brain className="h-6 w-6" data-oid="g1lq7_-" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3" data-oid="iu:pehm">
+                <h3 className="text-xl font-semibold mb-3" data-oid="ju6131e">
                   Observes your system
                 </h3>
                 <p
                   className="text-muted-foreground leading-relaxed"
-                  data-oid="c8cprg_"
+                  data-oid="u5xoaq4"
                 >
                   Continuously monitors your code, infrastructure, and data
                   flows with intelligent pattern recognition and deep system
@@ -220,21 +223,21 @@ export function LandingPage() {
             {/* Detects */}
             <Card
               className="group relative overflow-hidden border-border/50 bg-card/50 backdrop-blur-sm hover:border-chart-1/20 transition-all duration-300"
-              data-oid="t8w1g-q"
+              data-oid="f-i3g:8"
             >
-              <CardContent className="p-8" data-oid="o99:v:r">
+              <CardContent className="p-8" data-oid="49f2m-h">
                 <div
                   className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-chart-1/10 text-chart-1"
-                  data-oid="k4djy_1"
+                  data-oid="mo-rh.h"
                 >
-                  <Zap className="h-6 w-6" data-oid="3i1ngqr" />
+                  <Zap className="h-6 w-6" data-oid="rhi1e95" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3" data-oid="40jtvve">
+                <h3 className="text-xl font-semibold mb-3" data-oid="s1awdos">
                   Detects anomalies
                 </h3>
                 <p
                   className="text-muted-foreground leading-relaxed"
-                  data-oid="d414yfy"
+                  data-oid="ac-y-km"
                 >
                   Uses advanced AI to identify performance issues, security
                   vulnerabilities, and system irregularities before they impact
@@ -246,21 +249,21 @@ export function LandingPage() {
             {/* Automates */}
             <Card
               className="group relative overflow-hidden border-border/50 bg-card/50 backdrop-blur-sm hover:border-chart-2/20 transition-all duration-300"
-              data-oid="vufoh0p"
+              data-oid="ofr.luc"
             >
-              <CardContent className="p-8" data-oid="zzmypel">
+              <CardContent className="p-8" data-oid="v.lhkoz">
                 <div
                   className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-chart-2/10 text-chart-2"
-                  data-oid="348ql1_"
+                  data-oid="yhc08ps"
                 >
-                  <Bot className="h-6 w-6" data-oid="31agmuh" />
+                  <Bot className="h-6 w-6" data-oid="wgde:vn" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3" data-oid="0fvl7or">
+                <h3 className="text-xl font-semibold mb-3" data-oid="xku54yq">
                   Suggests or automates fixes
                 </h3>
                 <p
                   className="text-muted-foreground leading-relaxed"
-                  data-oid="3ahxkul"
+                  data-oid="hx3iw38"
                 >
                   Provides intelligent recommendations and can automatically
                   resolve common issues, reducing manual intervention and
@@ -273,84 +276,84 @@ export function LandingPage() {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-24 sm:py-32 bg-muted/20" data-oid="wyzg-cu">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8" data-oid="iuc.w.i">
-          <div className="mx-auto max-w-2xl text-center" data-oid="86g6e2i">
+      <section className="py-24 sm:py-32 bg-muted/20" data-oid="h7rl907">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8" data-oid=":yf303_">
+          <div className="mx-auto max-w-2xl text-center" data-oid="k9cux-b">
             <h2
               className="text-3xl font-bold tracking-tight sm:text-4xl"
-              data-oid="0wobqqv"
+              data-oid="h3gbuy-"
             >
               How It Works
             </h2>
             <p
               className="mt-4 text-lg text-muted-foreground"
-              data-oid="2qgjma4"
+              data-oid="-rom6g."
             >
               Seamless integration with your existing development workflow
             </p>
           </div>
 
-          <div className="mx-auto mt-16 max-w-4xl" data-oid=":nsz6hl">
+          <div className="mx-auto mt-16 max-w-4xl" data-oid="x3l52o-">
             <div
               className="grid grid-cols-1 gap-8 md:grid-cols-3"
-              data-oid="gbg0x_8"
+              data-oid="h7dumtp"
             >
               {/* Step 1 */}
-              <div className="relative" data-oid="cne6g0x">
+              <div className="relative" data-oid="8qnm:2e">
                 <div
                   className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary mb-6"
-                  data-oid="1iyr9wz"
+                  data-oid="sw3cd48"
                 >
-                  <Eye className="h-8 w-8" data-oid="07rqtoh" />
+                  <Eye className="h-8 w-8" data-oid="p33skwi" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3" data-oid="xlq7z78">
+                <h3 className="text-lg font-semibold mb-3" data-oid="cyz87s3">
                   1. Connect & Observe
                 </h3>
-                <p className="text-muted-foreground" data-oid="n1horh_">
+                <p className="text-muted-foreground" data-oid="57m2t:.">
                   Install Onlook agents across your infrastructure. They begin
                   monitoring immediately with zero configuration.
                 </p>
                 {/* Connection line */}
                 <div
                   className="hidden md:block absolute top-8 left-16 w-full h-0.5 bg-gradient-to-r from-primary/50 to-transparent"
-                  data-oid=".l2d1c6"
+                  data-oid="bd-bdoj"
                 />
               </div>
 
               {/* Step 2 */}
-              <div className="relative" data-oid="w8cywis">
+              <div className="relative" data-oid="ky4nkcg">
                 <div
                   className="flex h-16 w-16 items-center justify-center rounded-full bg-chart-1/10 text-chart-1 mb-6"
-                  data-oid="gzwxuet"
+                  data-oid="16x17wc"
                 >
-                  <Brain className="h-8 w-8" data-oid="2jh_-en" />
+                  <Brain className="h-8 w-8" data-oid="j_ydtsb" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3" data-oid="iw60h3p">
+                <h3 className="text-lg font-semibold mb-3" data-oid="wrq6g4l">
                   2. AI Analysis
                 </h3>
-                <p className="text-muted-foreground" data-oid="dj_32me">
+                <p className="text-muted-foreground" data-oid="4iftz43">
                   Our AI processes patterns, learns your system behavior, and
                   identifies potential issues in real-time.
                 </p>
                 {/* Connection line */}
                 <div
                   className="hidden md:block absolute top-8 left-16 w-full h-0.5 bg-gradient-to-r from-chart-1/50 to-transparent"
-                  data-oid="drn_w-m"
+                  data-oid="ly89.u1"
                 />
               </div>
 
               {/* Step 3 */}
-              <div className="relative" data-oid="ukijm51">
+              <div className="relative" data-oid="hfqpsjz">
                 <div
                   className="flex h-16 w-16 items-center justify-center rounded-full bg-chart-2/10 text-chart-2 mb-6"
-                  data-oid="hy5.e:b"
+                  data-oid="uqy_lsd"
                 >
-                  <Zap className="h-8 w-8" data-oid="_083s_d" />
+                  <Zap className="h-8 w-8" data-oid="mx6yuzw" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3" data-oid="cwcey-_">
+                <h3 className="text-lg font-semibold mb-3" data-oid="njkwy8m">
                   3. Automated Action
                 </h3>
-                <p className="text-muted-foreground" data-oid="tvtsuv.">
+                <p className="text-muted-foreground" data-oid="8-xadcy">
                   Receive intelligent alerts and automated fixes, keeping your
                   systems running smoothly 24/7.
                 </p>
@@ -361,18 +364,18 @@ export function LandingPage() {
       </section>
 
       {/* Waitlist Signup Section */}
-      <section className="py-24 sm:py-32" data-oid="wzl:9lo">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8" data-oid="r20ue19">
-          <div className="mx-auto max-w-2xl text-center" data-oid="p:hjk:t">
+      <section className="py-24 sm:py-32" data-oid="op:.be.">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8" data-oid="ycea1ks">
+          <div className="mx-auto max-w-2xl text-center" data-oid="2ftoxjt">
             <h2
               className="text-3xl font-bold tracking-tight sm:text-4xl"
-              data-oid="xv5viea"
+              data-oid="_2xzek9"
             >
               Join the Waitlist
             </h2>
             <p
               className="mt-4 text-lg text-muted-foreground"
-              data-oid="i7utdow"
+              data-oid="c5i0v6x"
             >
               Be among the first to experience the future of system
               observability
@@ -381,9 +384,9 @@ export function LandingPage() {
             <form
               onSubmit={handleSubmit}
               className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center"
-              data-oid="zdq-k9f"
+              data-oid="w:dkbul"
             >
-              <div className="relative flex-1 max-w-md" data-oid="yktnzsl">
+              <div className="relative flex-1 max-w-md" data-oid="2pae68b">
                 <Input
                   type="email"
                   placeholder="Enter your email"
@@ -391,18 +394,18 @@ export function LandingPage() {
                   onChange={(e) => setEmail(e.target.value)}
                   className="pr-4 transition-all duration-200 focus:ring-primary/20"
                   required
-                  data-oid="w8eh3pt"
+                  data-oid="kws-7e0"
                 />
               </div>
               <Button
                 type="submit"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-200 ring-2 ring-primary/20 hover:ring-primary/30"
                 disabled={isSubmitted}
-                data-oid="191cq6o"
+                data-oid="11auc1s"
               >
                 {isSubmitted ? (
                   <>
-                    <Check className="mr-2 h-4 w-4" data-oid="bgyn9ef" />
+                    <Check className="mr-2 h-4 w-4" data-oid="kl18:y:" />
                     Added to Waitlist!
                   </>
                 ) : (
@@ -413,7 +416,7 @@ export function LandingPage() {
 
             <p
               className="mt-4 text-sm text-muted-foreground"
-              data-oid="6u4eo-7"
+              data-oid="-.lh0zf"
             >
               No spam, ever. Unsubscribe at any time.
             </p>
@@ -422,58 +425,58 @@ export function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-border bg-muted/10" data-oid=":h7j978">
+      <footer className="border-t border-border bg-muted/10" data-oid="jcdz0t5">
         <div
           className="mx-auto max-w-7xl px-6 py-12 lg:px-8"
-          data-oid="2md75rs"
+          data-oid="p3a035v"
         >
           <div
             className="flex flex-col items-center justify-between gap-8 sm:flex-row"
-            data-oid="2im57_f"
+            data-oid="3wxdwq9"
           >
             {/* Logo and copyright */}
-            <div className="flex items-center gap-4" data-oid="b.wb7ry">
+            <div className="flex items-center gap-4" data-oid="vpo80md">
               <div
                 className="flex h-8 w-8 items-center justify-center rounded bg-primary text-primary-foreground font-mono font-bold"
-                data-oid="uj76kr_"
+                data-oid="0stpwlv"
               >
                 O
               </div>
-              <div className="text-sm text-muted-foreground" data-oid="6-diisf">
+              <div className="text-sm text-muted-foreground" data-oid="xa7cw2p">
                 © 2024 Onlook. All rights reserved.
               </div>
             </div>
 
             {/* Links */}
-            <div className="flex items-center gap-6" data-oid="3ubi5mq">
+            <div className="flex items-center gap-6" data-oid="_2rd8ca">
               <a
                 href="#"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
-                data-oid="my93c:e"
+                data-oid="yo_ig7y"
               >
-                <FileText className="h-4 w-4" data-oid="d-4fpj4" />
+                <FileText className="h-4 w-4" data-oid="wm-mu1c" />
                 Docs
               </a>
               <a
                 href="#"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
-                data-oid="2:hi5t4"
+                data-oid="eh1v.to"
               >
-                <Twitter className="h-4 w-4" data-oid="ra27bcy" />
+                <Twitter className="h-4 w-4" data-oid="7cjrx_j" />
                 Twitter
               </a>
               <a
                 href="#"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
-                data-oid="dme5cfl"
+                data-oid="twkp7oy"
               >
-                <Github className="h-4 w-4" data-oid="f00emfr" />
+                <Github className="h-4 w-4" data-oid="c:fkv62" />
                 GitHub
               </a>
               <a
                 href="#"
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                data-oid="j0k.89a"
+                data-oid="m83qtxn"
               >
                 Terms
               </a>
