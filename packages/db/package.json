@@ -1,25 +1,33 @@
 {
   "name": "@codexpa/db",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.ts",
   "exports": {
-    "./client": "./src/client.ts"
+    ".": "./src/index.ts",
+    "./schema": "./src/schema/index.ts"
   },
   "scripts": {
-    "db:generate": "npx prisma generate",
-    "db:migrate": "npx prisma migrate dev",
-    "db:push": "npx prisma db push",
-    "db:studio": "npx prisma studio"
+    "lint": "eslint .",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "format": "prettier --write \"**/*.{ts,tsx,css,,md}\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@codexpa/typescript-config": "workspace:*"
+    "@codexpa/typescript-config": "workspace:*",
+    "@types/pg": "^8.15.4",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.20.3"
   },
   "dependencies": {
-    "@prisma/client": "^6.10.1",
-    "prisma": "^6.10.1"
+    "dotenv": "^17.0.0",
+    "drizzle-orm": "^0.44.3",
+    "pg": "^8.16.3",
+    "postgres": "^3.4.7"
   }
 }
