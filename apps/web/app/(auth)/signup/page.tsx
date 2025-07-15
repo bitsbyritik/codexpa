@@ -1,5 +1,5 @@
 import LoginPage from "@/components/login-page";
 
 export default function Signin() {
-  return <LoginPage />;
+  return <LoginPage data-oid="g3:-7la" />;
 }

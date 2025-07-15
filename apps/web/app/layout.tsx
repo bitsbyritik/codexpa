@@ -15,15 +15,14 @@ const fontMono = Geist_Mono({
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning data-oid="8z_dfiu">
       <body
         className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased `}
+        data-oid="_--70f7"
       >
-        <Providers>{children}</Providers>
+        <Providers data-oid="rqc4hbq">{children}</Providers>
       </body>
     </html>
   );
