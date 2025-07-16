@@ -11,7 +11,6 @@ export function Providers({ children }: { children: React.ReactNode }) {
       enableSystem
       disableTransitionOnChange
       enableColorScheme
-      data-oid="66k87j."
     >
       {children}
     </NextThemesProvider>

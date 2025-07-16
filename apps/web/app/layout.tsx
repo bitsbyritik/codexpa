@@ -17,12 +17,12 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" suppressHydrationWarning data-oid="8z_dfiu">
+    <html lang="en" suppressHydrationWarning data-oid="zs5bfpa">
       <body
         className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased `}
-        data-oid="_--70f7"
+        data-oid="p:xf7al"
       >
-        <Providers data-oid="rqc4hbq">{children}</Providers>
+        <Providers data-oid="7fx_k2_">{children}</Providers>
       </body>
     </html>
   );
