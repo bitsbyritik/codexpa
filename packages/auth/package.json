@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "exports": {
-    "./client": "./src/client.ts",
-    "./server": "./src/server.ts"
+    "./client": "./src/auth-client.ts",
+    ".": "./src/auth.ts"
   },
   "scripts": {
     "lint": "eslint ."
