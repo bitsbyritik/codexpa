@@ -1,8 +1,5 @@
 {
-  "extends": "@workspace/tsconfig/base.json",
-  "compilerOptions": {
-    "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
-  },
+  "extends": "@codexpa/typescript-config/base.json",
   "include": ["src"],
   "exclude": ["node_modules"]
 }
