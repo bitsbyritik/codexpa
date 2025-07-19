@@ -60,6 +60,9 @@ importers:
       '@trpc/server':
         specifier: ^11.4.3
         version: 11.4.3(typescript@5.7.3)
+      '@trpc/tanstack-react-query':
+        specifier: ^11.4.3
+        version: 11.4.3(@tanstack/react-query@5.83.0(react@19.0.0))(@trpc/client@11.4.3(@trpc/server@11.4.3(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.4.3(typescript@5.7.3))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)
       better-auth:
         specifier: ^1.2.12
         version: 1.2.12
@@ -81,6 +84,9 @@ importers:
       react-dom:
         specifier: ^19.0.0
         version: 19.0.0(react@19.0.0)
+      superjson:
+        specifier: 2.2.1
+        version: 2.2.1
       zod:
         specifier: ^4.0.5
         version: 4.0.5
@@ -1157,6 +1163,16 @@ packages:
   '@trpc/server@11.4.3':
     resolution: {integrity: sha512-wnWq3wiLlMOlYkaIZz+qbuYA5udPTLS4GVVRyFkr6aT83xpdCHyVtURT+u4hSoIrOXQM9OPCNXSXsAujWZDdaw==}
     peerDependencies:
+      typescript: '>=5.7.2'
+
+  '@trpc/tanstack-react-query@11.4.3':
+    resolution: {integrity: sha512-aYPp12wE9IrakccGWoQU/waZuWr3FLw9RtagsqJmX9NKHpQOVzoDvHA1W0amwyTQSAfL98Bn5rWmD7KTdr5AWg==}
+    peerDependencies:
+      '@tanstack/react-query': ^5.80.3
+      '@trpc/client': 11.4.3
+      '@trpc/server': 11.4.3
+      react: '>=18.2.0'
+      react-dom: '>=18.2.0'
       typescript: '>=5.7.2'
 
   '@tsconfig/node10@1.0.11':
@@ -4002,6 +4018,15 @@ snapshots:
 
   '@trpc/server@11.4.3(typescript@5.7.3)':
     dependencies:
+      typescript: 5.7.3
+
+  '@trpc/tanstack-react-query@11.4.3(@tanstack/react-query@5.83.0(react@19.0.0))(@trpc/client@11.4.3(@trpc/server@11.4.3(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.4.3(typescript@5.7.3))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)':
+    dependencies:
+      '@tanstack/react-query': 5.83.0(react@19.0.0)
+      '@trpc/client': 11.4.3(@trpc/server@11.4.3(typescript@5.7.3))(typescript@5.7.3)
+      '@trpc/server': 11.4.3(typescript@5.7.3)
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
       typescript: 5.7.3
 
   '@tsconfig/node10@1.0.11': {}
